@@ -181,7 +181,7 @@ def f1_C(y_true, y_pred):
     score = 2 * p * r / (p + r)
     return score, p, r
 
-'Weighted F1/ Macro avrege loss function'
+'Weighted F1/ Macro average loss function'
 def compute_weighted_f1(f1_scores, f1_weights, weighted_F1):
     for key in f1_scores:
         value = f1_scores[key] * f1_weights[key]
