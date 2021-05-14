@@ -7,7 +7,7 @@ F1 score for multi-label classification.
 
 ### Challenge
 
-In this code, no external libraries like numpy, pandas, sklearn among others have not been used for writing the loss function.
+In this code, no external libraries like numpy, pandas, sklearn among others have been used for writing the loss function.
 The loss functions are written from scratch using basic math functions in Python.
 
 #### Input
